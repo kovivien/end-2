@@ -1,0 +1,231 @@
+body{
+    background-image: url(../img/IMG_8742.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav_bg_color{
+    background-color: rgba(91, 156, 112, 0.392);
+
+}
+
+.navbar-light .navbar-brand{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(201, 255, 147);
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: darkolivegreen;
+}
+
+.box{
+    background-color: rgb(231, 250, 165,0.392);
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    padding: 20px;
+}
+
+img{
+    width: 400px;
+}
+
+video{
+    width: 600px;
+}
+   
+p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    
+}
+
+h2{
+    font-weight: bold;
+    color: rgb(16, 45, 141);
+}
+
+h1{
+    font-weight: bold;
+    color: rgba(13, 26, 70);
+}
+   
+.ee{
+    background-color: rgb(231, 250, 165,0.392);
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px; 
+}
+
+.rr{
+    background-color: rgb(231, 250, 165,0.392);
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;  
+}
+
+.tt{
+    background-color: rgb(231, 250, 165,0.392);
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px; 
+}
+
+h3{
+    font-weight: bold;
+    color: rgb(73, 85, 126);
+}
+
+.pp{
+    background-color: rgb(231, 250, 165,0.392);
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.nn{
+    background-color: rgb(231, 250, 165,0.392);
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+h5{
+    font-weight: bold;
+    color: rgb(88, 95, 120);
+}
+ul{
+    font-weight: bold;
+    color: rgb(88, 95, 120);  
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.392);
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.card{
+    font-size: 50px;
+    margin: 100px 10px;
+    border: 10px solid #aaffb441;
+}
+
+.longs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.long{
+    font-size: 50px;
+    margin: 100px 10px;
+    border: 2px solid #aaffb441;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.photo{
+    font-size: 50px;
+    margin: 100px 10px;
+    border: 2px solid #aaffb441;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#here{
+    height: calc(100vh -60px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#here h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+
+}
+
+#here p{
+    color: rgb(0, 0, 0);
+}
+
+.bg_1{
+    background-image: url(../img/S__8642695_0.jpg);
+}
+.bg_2{
+    background-image: url(../img/S__8642696_0.jpg);
+}
+.bg_3{
+    background-image: url(../img/S__8642697.jpg);
+}
+.bg_4{
+    background-image: url(../img/S__8642693_0.jpg);
+}
+.color_1{
+    background-color: rgb(102, 155, 23);
+}
+.color_2{
+    background-color: rgb(137, 158, 44);
+}
+.color_3{
+    background-color: rgb(81, 101, 109);
+    
+}
+html,body{
+    height: 100%;
+}
+.fixed_bg, .infos{
+    position: relative;
+    height: 100%;
+}
+.fixed_bg{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1#vcenter{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    color: aliceblue;
+}
+
+.some{
+    background-color: rgb(245, 194, 119);
+}
